@@ -32,8 +32,8 @@ def main():
 	while 1:
 		ch = cv2.waitKey(30)
 		if (ch == 27):
-			break
 			cv2.destroyAllWindows()
+			break
 
 if __name__ == '__main__':
 	import sys
@@ -41,7 +41,7 @@ if __name__ == '__main__':
 		fn = sys.argv[1]
 		print("parametro:", fn)
 	except:
-		fn = '/home/brito/Documentos/visao/fotos/euca_net1.jpg'
+		fn = 'images/euca_net1.jpg'
 		
 	print("file:", fn)	
 	src = cv2.imread(fn)
