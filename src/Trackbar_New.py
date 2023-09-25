@@ -35,7 +35,7 @@ def update(*arg):
 
 	cv2.imshow('mask', mask)
 
-	im2, contours, hierarchy = cv2.findContours(gaussian,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+	contours, hierarchy = cv2.findContours(gaussian,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 	total_contours = len(contours)
 	result=src.copy()
 	#cv2.drawContours(result, contours, 1, (0,255,0), 3)
