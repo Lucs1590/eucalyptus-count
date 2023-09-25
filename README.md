@@ -16,6 +16,10 @@ Doing it you will get the number of eucalyptus trees in the terminal.
 The green contours are the ones that were detected as eucalyptus following the determined rules.
 The red contours are the ones that didn't follow the rules.
 
+An example of the result is shown below:
+
+![Detections](https://raw.githubusercontent.com/Lucs1590/eucalyptus-count/main/images/detections.jpeg)
+
 ## How to run
 
 To run the project, you need to have Python 3 installed on your machine. Then, you need to install the needed libraries. To do it, run the following command:
