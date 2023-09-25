@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Python 2/3 compatibility
 import cv2
 import numpy as np
 
